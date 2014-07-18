@@ -1,0 +1,150 @@
+#profile
+{
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+width: 5%;
+display: table-cell;
+background: royalBlue;
+  
+}
+  
+#jobs
+{
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+width: 5%;
+display: table-cell;
+background: lightCoral;
+}
+  
+#education
+{
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+width: 5%;
+display: table-cell;
+background: lightGreen;
+}
+  
+#skills
+{
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+width: 5%;
+display: table-cell;
+background: PaleGoldenRod;
+}
+  
+#contact
+{
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+width: 5%;
+display: table-cell;
+background: lightSkyBlue;
+}
+
+table.inner td:hover #pencil
+{
+visibility: visible;
+}
+  
+  
+table.inner td:hover #cross
+{
+visibility: visible;
+}
+  
+#pencil
+{
+visibility: hidden;
+  
+}
+  
+#pencil:hover
+{
+background-color:white;
+}
+  
+#cross
+{
+visibility: hidden;
+}
+  
+#cross:hover
+{
+background-color:white;
+}
+
+.dimmer{
+    background: #000;
+    position: absolute;
+    opacity: .5;
+    top: 0;
+    z-index:99;
+}
+
+table.outer 
+{
+  
+border-collapse: collapse;
+min-width:400px;
+width:80%;
+table-layout:fixed;
+  
+}
+  
+table.outer td
+{
+  
+text-align:center;
+border: 1px solid black;
+}
+  
+table.inner
+{
+border-collapse: collapse;
+width:100%;
+  
+border: hidden;
+vertical-align:top;
+}
+  
+  
+  
+  
+table.inner td
+{
+overflow: hidden;
+text-align:top;
+  
+}
+  
+  
+col
+{
+width:10%
+}
+  
+tr
+{
+height:100px;
+text-align:top;
+}
+  
+td
+{
+background-color:#FFFFFF;
+text-align:top;
+overflow: hidden;
+  
+  
+  
+}
+  
+td
+  
+tr.firstLine {font-weight: bold;}
+  
+table.fixed {  }
+table.fixed td {  }

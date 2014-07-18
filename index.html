@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stand Out</title>
+	<link rel="stylesheet" type="text/css" href="myCss.css">
+	<script src = "script.js"></script>
+</head>
+<body>
+	<div id="header"><br>
+	
+	<h1>Stand Out Profile</h1>
+	</div>
+	
+	<center>
+	<div id='legend'>			<div class = 'sectionTabs' id = 'profileTab'> Profile</div>
+								<div class = 'sectionTabs' id = 'jobsTab'> Jobs</div>
+								<div class = 'sectionTabs' id = 'educationTab'> Education</div>
+								<div class = 'sectionTabs' id = 'skillsTab'> Skills</div>
+								<div class = 'sectionTabs' id = 'contactTab'> Contact</div>
+	</div>
+	
+	<hr>
+	
+	
+	<div id='mainBody'>
+	
+	<h1 class = 'sectionHeader' id = 'nameHeader'>		Caoimhin O'Donnellan</h1>
+		
+	<h2 class = 'sectionHeader' id = 'titleHeader'>		Software Developer</h2>
+	
+	<h3 class = 'sectionHeader' id = 'jobsHeader'>		Jobs</h3>
+	<p class = 'sectionBody' id = 'jobsBody'>			</p>
+	
+	<h3 class = 'sectionHeader' id = 'educationHeader'>	Education</h3>
+	<p class = 'sectionBody' id = 'educationBody'>		</p>
+	
+	<h3 class = 'sectionHeader' id = 'skillsHeader'>	Skills</h3>
+	<p class = 'sectionBody' id = 'skillsBody'>			</p>
+	
+	<h3 class = 'sectionHeader' id = 'contactHeader'>	Contact</h3>
+	<p class = 'sectionBody' id = 'contactBody'>		</p>
+	<a href= "http://ie.linkedin.com/pub/caoimhin-o-donnellan/38/a64/a41/">LinkedIn</a>
+	</div>
+	
+	
+	
+	
+	<!-- Forms ------------------------------------------------------------------------------------>
+	
+	
+	<div id="mainForm" name = "mainForm"><center>
+		<label for="name" hidden>Name</label>
+		<input id="name" hidden type="text" readonly><input id="editable" hidden value="false" readonly><br>
+		<label for="title" >Title</label>
+		<input id="title" name="title" type="text" title="Professional Title" value="Computer guy??" maxlength="23">
+				<br>
+		<button id='createButton' type="button" 
+			onclick='saveDetails()'>Save Details</button>
+		<button id='cancelButton' type="button"
+			onclick='closeForm()'>Cancel</button>
+	</div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+html
+{
+padding:0;
+}
+  
+body 
+{ 
+background-image:url("Calendar-icon1.png");
+background-repeat:repeat;
+}
+  
+#header
+{
+  
+background-color:white;
+border-top-style:solid;
+border-top-width:thick;
+border-color: royalBlue;
+}
+  
+  
+  
+/*h1
+{
+font-family:"Comic sans ms", Times, serif;
+color:LightGreen;
+color:LightSkyBlue;
+color:LightCoral;
+color:khaki;
+color:PaleGoldenRod;
+color:LightGray;
+  
+color:RoyalBlue;
+}
+ */ 
+ 
+ h3
+ {
+color:LightSkyBlue;
+ }
+ 
+hr
+{
+background-color:white;
+}
+  
+  
+#mainForm{
+  
+    position:fixed; 
+    top:20%; 
+    right: centre;
+  
+    visibility:hidden;
+  /*  position:absolute; */
+    background:royalBlue;
+    border:2px solid #3c3c3c;
+    color:white;
+    z-index:100;
+    width: 250px;
+    height:120px;
+    padding:20px;
+    box-shadow: 15px 15px 7px #888888;
+      
+}
+  
+#legend
+{
+font-family:"Comic sans ms", Times, serif;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+width: 50%;
+display:table;
+}
+  
+.sectionTabs
+{
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+width: 5%;
+display: table-cell;
+background: royalBlue;
+text-align: center;
+color: white;
+border: 5px inset Blue;
+}  
+
+.sectionTabs:hover
+{
+background-color:LightSkyBlue;
+}
+  
+
+
+  
